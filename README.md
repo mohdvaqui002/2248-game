@@ -4,6 +4,8 @@ A number-merge puzzle game built with **React** and **Vite**. Connect matching (
 
 **Repository:** [github.com/mohdvaqui002/2248-game](https://github.com/mohdvaqui002/2248-game)
 
+**Play online:** [https://mohdvaqui002.github.io/2248-game/](https://mohdvaqui002.github.io/2248-game/)
+
 ---
 
 ## How to play
