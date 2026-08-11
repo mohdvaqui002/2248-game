@@ -82,7 +82,7 @@ export default function App() {
         const r2 = Math.floor(j / COLS);
         const c2 = j % COLS;
 
-        if (Math.abs(r1 - r2) <= 1 && Math.abs(c1 - c2) <= 1) {
+        if (Math.abs(r1 - r2) + Math.abs(c1 - c2) === 1) {
           if (currentBoard[j].value === val1) {
             return false; // Valid move exists!
           }
@@ -129,7 +129,7 @@ export default function App() {
     const r2 = Math.floor(idx / COLS);
     const c2 = idx % COLS;
 
-    if (Math.abs(r1 - r2) > 1 || Math.abs(c1 - c2) > 1) return;
+    if (Math.abs(r1 - r2) + Math.abs(c1 - c2) !== 1) return;
 
     // Check tile values
     const lastVal = board[lastIdx].value;
