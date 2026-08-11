@@ -89,17 +89,9 @@ export default function Grid({
   // Calculate sum / merged value preview
   const getMergedPreview = () => {
     if (chain.length < 2) return null;
-    let sum = 0;
-    chain.forEach((idx) => {
-      if (board[idx]) sum += board[idx].value;
-    });
-
-    // Round up to nearest power of 2
-    let mergedVal = 2;
-    while (mergedVal < sum) {
-      mergedVal *= 2;
-    }
-    return mergedVal;
+    const values = chain.map((idx) => board[idx] ? board[idx].value : 0);
+    const maxValInChain = Math.max(...values);
+    return maxValInChain * 2;
   };
 
   const mergedVal = getMergedPreview();
