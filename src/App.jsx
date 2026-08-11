@@ -161,16 +161,9 @@ export default function App() {
     // Save history for Undo
     setHistory((prev) => [...prev, { board, score }]);
 
-    // Calculate sum and merged value
-    let totalSum = 0;
-    chain.forEach((idx) => {
-      totalSum += board[idx].value;
-    });
-
-    let mergedVal = 2;
-    while (mergedVal < totalSum) {
-      mergedVal *= 2;
-    }
+    // Calculate merged value: next power of 2 above the highest tile in the chain
+    const maxValInChain = Math.max(...chain.map((idx) => board[idx].value));
+    const mergedVal = maxValInChain * 2;
 
     // Points calculation with multiplier
     const pointsGained = mergedVal * chain.length;
