@@ -12,10 +12,12 @@ const COLS = 5;
 
 const getRandomInitialValue = () => {
   const rand = Math.random();
-  if (rand < 0.5) return 2;
-  if (rand < 0.8) return 4;
-  if (rand < 0.95) return 8;
-  return 16;
+  if (rand < 0.3) return 2;
+  if (rand < 0.6) return 4;
+  if (rand < 0.8) return 8;
+  if (rand < 0.9) return 16;
+  if (rand < 0.95) return 32;
+  return 64;
 };
 
 const createInitialBoard = () => {
