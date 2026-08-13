@@ -1,4 +1,4 @@
-# 2248 Game
+# DuploGrid
 
 A modern, highly polished number-merge puzzle game built with **React 18** and **Vite 6**. Connect matching and doubling tiles on a 7×5 grid, chain merges to gain multipliers, and use strategic power-ups to achieve massive scores.
 

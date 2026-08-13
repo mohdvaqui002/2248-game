@@ -6,7 +6,7 @@ export default function HowToPlayModal({ onClose }) {
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
-          <div className="modal-title">How to Play 2248</div>
+          <div className="modal-title">How to Play DuploGrid</div>
           <button className="icon-btn" onClick={onClose}>
             <X size={18} />
           </button>

@@ -16,7 +16,7 @@ export default function Header({
     <div className="header-card">
       <div className="top-bar">
         <div className="logo-container">
-          <div className="logo-badge">2248</div>
+          <div className="logo-badge">DuploGrid</div>
           <div className="title-text">Match & Merge</div>
         </div>
         <div className="icon-actions">
