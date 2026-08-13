@@ -2,9 +2,9 @@
 
 A modern, highly polished number-merge puzzle game built with **React 18** and **Vite 6**. Connect matching and doubling tiles on a 7×5 grid, chain merges to gain multipliers, and use strategic power-ups to achieve massive scores.
 
-**Repository:** [github.com/mohdvaqui002/2248-game](https://github.com/mohdvaqui002/2248-game)
+**Repository:** [github.com/mohdvaqui002/Duplo_grid](https://github.com/mohdvaqui002/Duplo_grid)
 
-**Play online:** [https://mohdvaqui002.github.io/2248-game/](https://mohdvaqui002.github.io/2248-game/)
+**Play online:** [https://mohdvaqui002.github.io/Duplo_grid/](https://mohdvaqui002.github.io/Duplo_grid/)
 
 ---
 
@@ -99,8 +99,8 @@ After each move, the board is checked for valid remaining moves. The game is ove
 ### Development Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mohdvaqui002/2248-game.git
-   cd 2248-game
+   git clone https://github.com/mohdvaqui002/Duplo_grid.git
+   cd Duplo_grid
    ```
 2. Install dependencies:
    ```bash
